@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: "Libre Baskerville", serif;
+    color: white;
+}
+
+body {
+    background: black
+}
+
+div {
+    width: 50%;
+    margin-left: 25%;
+}
+
+img {
+    width: 100%; /* Com este comando a <div> foi preenchida 100% pela imagem */
+    border: 5px solid;
+    margin-top: 15%;
+    border-radius: 8px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
