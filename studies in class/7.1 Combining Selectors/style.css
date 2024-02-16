@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1, h2 {
+    color: blueviolet;
+}
+
+div.box > p.done {
+    color: firebrick;
+}
+
+div.box li {
+    color: blue;
+}
+
+ul.list > li.done {
+    color: seagreen;
+}
+
+ul p.done {
+    font-size: 2em
+}
