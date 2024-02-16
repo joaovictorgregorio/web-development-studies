@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+div#outer-box {
+  border: 10px solid purple;
+}
+
+.box {
+  background-color: darkblue;
+  padding: 10px;
+}
+
+.inner-box {
+  background: red;
+  padding: 10px;
+}
+
+.white-text {
+  color: white;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
