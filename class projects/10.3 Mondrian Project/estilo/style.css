@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #000;
+    --cor2: #f0f1ec;
+    --cor3: #e72f24;
+    --cor4: #232629;
+    --cor5: #004592;
+    --cor6: #f9d01e;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container {
+    display: grid;
+    height: 748px;
+    width: 748px;
+    /* Colocando todas as medidas horizontais do quadro/projeto */
+    grid-template-columns: 320px 198px 153px 50px; 
+    /* Colocando todas as medidas verticais do quadro/projeto  */
+    grid-template-rows: 414px 155px 130px 22px;
+    background-color: var(--cor1);
+    gap: 9px;
+}
+
+div.red {
+    background-color: var(--cor3);
+}
+
+div.white-01 {
+    background-color: var(--cor2);
+    grid-column: span 3;
+}
+
+div.white-02 {
+    background-color: var(--cor2);
+    grid-row: span 2;
+}
+
+div.white-03 {
+    background-color: var(--cor2);
+    grid-area: 2 / 2 / 4 / 4;
+}
+
+div.blue {
+    background-color: var(--cor5);
+    border-bottom: 10px solid black;
+}
+
+div.white-04 {
+    background-color: var(--cor2);
+    grid-row: span 2;
+}
+
+div.white-05 {
+    background-color: var(--cor2);
+}
+
+div.yellow {
+    background-color: var(--cor6);
+}
+
+div.black {
+    background-color: var(--cor4);
+}
