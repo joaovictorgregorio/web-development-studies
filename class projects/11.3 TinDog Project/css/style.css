@@ -27,4 +27,7 @@
   border-radius: 50%;
 }
 
+#newsletter1:focus-within{
+  background-color: rgba(0, 0, 255, 0.401)
+}
 
