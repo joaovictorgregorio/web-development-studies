@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor01: #0C2D57;
+    --cor02: #FC6736;
+    --cor03: #FFB0B0;
+    --cor04: #EFECEC;
+}
+
+body, html {
+ width: 100vw;
+ height: 100vh;
+}
+
+.rounded-lg-3 {
+    border-radius: 50%;
+}
+
+.row {
+    background-color: var(--cor01);
+}
+
