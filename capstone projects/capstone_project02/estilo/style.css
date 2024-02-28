@@ -44,8 +44,10 @@ ul.social-media > li > a > img {
 }
 
 ul.social-media > li > a > img:hover {
-    border: 1px solid var(--cor02);
-    transition: 0.2s;
+    border: 2px solid var(--cor02);
+    transform: translate(5px, 2px);
+    transition: transform .3s, border .3s;
+    text-align: justify;
 }
 
 
