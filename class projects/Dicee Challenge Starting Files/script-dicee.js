@@ -1,4 +1,4 @@
-var randomNumber1 = Math.floor(Math.random() * 7);
+var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
 switch (randomNumber1) {
     case 1:
@@ -21,7 +21,7 @@ switch (randomNumber1) {
         break
 }
 
-var randomNumber2 = Math.floor(Math.random() * 7);
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 switch (randomNumber2) {
     case 1:
