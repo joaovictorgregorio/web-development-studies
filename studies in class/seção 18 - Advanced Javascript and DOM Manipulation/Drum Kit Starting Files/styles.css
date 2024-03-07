@@ -17,31 +17,38 @@ footer {
 }
 
 .w {
-
+  background: url("./images/tom1.png");
+  cursor: pointer;
 }
 
 .a {
-
+  background: url("./images/tom2.png");
+  cursor: pointer;
 }
 
 .s {
-
+ background: url("./images/tom3.png");
+ cursor: pointer;
 }
 
 .d {
-
+  background: url("./images/tom4.png");
+  cursor: pointer;
 }
 
 .j {
-
+  background: url("./images/snare.png");
+  cursor: pointer;
 }
 
 .k {
-
+  background: url("./images/crash.png");
+  cursor: pointer;
 }
 
 .l {
-
+  background: url("./images/kick.png");
+  cursor: pointer;
 }
 
 .set {
