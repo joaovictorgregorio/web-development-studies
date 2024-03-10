@@ -1,4 +1,6 @@
 $( ".button-play" ).click(function() {
+    $( ".img1" ).slideUp().slideDown();
+    $( ".img2" ).slideUp().slideDown();
 
     var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
