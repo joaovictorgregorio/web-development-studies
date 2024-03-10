@@ -18,7 +18,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 5em;
   color: #4ECCA3;
 }
 
@@ -40,6 +40,23 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+input[type=button] {
+  font: bold 2em 'Indie Flower';
+  padding: 8px 15px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background: #4ECCA3;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background: #4ecca28a;
+  transition: 0.3s;
 }
 
 footer {

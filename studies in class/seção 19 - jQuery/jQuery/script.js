@@ -31,11 +31,31 @@ $("h1").text("Olá,");
 $("h1").html("Lorem ipsum<hr>");
 */
 
-/*
+/* Manipulating Attributes with jQuery
+
 $("img").attr("src", "./images/dice3.png");
 $("a").attr("href", "https://www.github.com/joaovictorgregorio");
+
 */
 
-$( "h1" ).click( function() {
-    $( "h1" ).css( "color", "purple" )
+/* Adding Event Listeners with jQuery
+
+for ( var i = 0; i < 5; i++ ) {
+    document.querySelectorAll("button")[i].addEventListener("click", function () {
+        document.querySelector("h1").style.color = "purple";
+    });
+}
+
+$( "button" ).click( function() {
+    $( "h1" ).css( "color", "purple" );
+} );
+
+$( document ).keydown( function( event ) {
+    $( "h1" ).html( event.key );
+} );
+
+*/
+
+$( "h1" ).on( "mouseover", function() {
+    $( "h1" ).css( "color", "red" );
 } );
