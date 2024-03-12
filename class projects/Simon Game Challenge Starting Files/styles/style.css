@@ -6,9 +6,10 @@ body {
 }
 
 #level-title {
-  font: bolder 3rem 'Press Start 2P', cursive;
+  font: bolder 1.8em 'Press Start 2P', cursive;
   margin:  5%;
-  letter-spacing: 2px;
+  line-height: 1.5em;
+  letter-spacing: 3px;
   color: #FEF2BF;
 }
 
