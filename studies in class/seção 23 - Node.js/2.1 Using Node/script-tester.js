@@ -1,0 +1,1 @@
+console.log("Olá, meu amigo. Tudo bem?");
