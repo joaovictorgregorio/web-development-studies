@@ -1,0 +1,16 @@
+{
+  "name": "gerador-qr-code-projeto",
+  "version": "1.0.0",
+  "description": "Gerador de qr code projeto",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Victor Gregorio da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "qr-image": "^3.2.0"
+  }
+}
