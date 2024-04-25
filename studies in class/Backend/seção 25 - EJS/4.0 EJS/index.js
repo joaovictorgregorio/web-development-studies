@@ -7,7 +7,6 @@ app.get("/", function (req, res) {
     var dataAtual = new Date();
     var diaSemanaNumero = dataAtual.getDay();
 
-    console.log(diaSemanaNumero);
     var mensagemSemana = "é um dia da semana, é hora de trabalhar pesado!"
     var menssagemFimDeSemana = "é fim de semana, é hora de descansar e pegar mais leve!";
 
