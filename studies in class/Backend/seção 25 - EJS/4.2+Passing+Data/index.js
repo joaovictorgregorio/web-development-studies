@@ -16,5 +16,5 @@ aplicacao.post("/submit", (req, res) => {
 });
 
 aplicacao.listen(porta, () => {
-  console.log(`Servidor funcionando na porta ${porta}`)
+  console.log(`Servidor funcionando na porta ${porta}`);
 });
