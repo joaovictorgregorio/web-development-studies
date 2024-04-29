@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contagem de caracteres</title>
+</head>
+
+<body>
+  <% if(locals.numeroDeCaracteres) { %>
+    <h1>Há <%=numeroDeCaracteres%> caracteres em seu nome.</h1>
+    <% } else { %>
+      <h1>Digite seu nome logo abaixo por favor ⬇️</h1>
+      <% }%>
+        <form action="/submit" method="POST">
+          <input type="text" name="fName" placeholder="First name">
+          <input type="text" name="lName" placeholder="Last name">
+          <input type="submit" value="OK">
+        </form>
+</body>
+
+</html>
