@@ -2,7 +2,7 @@ body {
   background: #222;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-  color: hotpink;
+  color: #ff69b4;
 }
 
 main {
@@ -26,11 +26,19 @@ input {
   appearance: none;
   -webkit-appearance: none;
   border: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   background: #888;
   padding: 1rem;
   color: white;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  font-variant: small-caps;
   cursor: pointer;
+}
+
+input:hover {
+  background: #ff69b4;
+  transition: 0.5s;
 }
 
 footer {
