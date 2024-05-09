@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor01: #0C2D57;
+    --cor02: #FC6736;
+    --cor03: #FFB0B0;
+    --cor04: #EFECEC;
+}
+
+main>div>div {
+    background-color: var(--cor04);
+}
+
+h1.welcome {
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+
+p.lead {
+    color: black;
+    font: 500 1.5em 'Open Sans';
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+img.my-photo {
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px 0px black;
+}
+
+ul.nav-pills {
+    border: .1px solid var(--cor02);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+a.nav-link {
+    font: bold 1em 'Segoe UI';
+    color: var(--cor04);
+    letter-spacing: 2px;
+}
+
+a.nav-link:hover {
+    background-color: #f39373;
+    color: var(--cor04);
+    transition: 0.3s;
+}
+
+footer {
+    color: var(--cor03);
+    text-align: right;
+    margin: 20px;
+}
