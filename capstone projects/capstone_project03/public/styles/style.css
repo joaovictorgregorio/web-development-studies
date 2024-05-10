@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+a.nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+
+a.nav-link:hover {
+    background: orange;
+}
